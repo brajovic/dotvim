@@ -48,8 +48,6 @@ let g:python3_host_prog = '/path/to/python3'
 "Line numbers
 :set nu
 
-"Enable mouse click
-:set mouse=a
-
 "Tabs length 2
-:set tabstop=2 softtabstop=2 shiftwidth=2 noexpandtab
+:set tabstop=2 softtabstop=2 shiftwidth=2 
+:set expandtab
